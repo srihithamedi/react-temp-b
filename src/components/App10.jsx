@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useRef } from "react";
 import "./App10.css";
-export default function App10() {
+export default function () {
   const [run, setRun] = useState(0);
   const [wicket, setWicket] = useState(0);
   const [msg, setMsg] = useState("Let's begin the game!");
